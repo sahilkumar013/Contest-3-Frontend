@@ -1,0 +1,22 @@
+*{
+    margin: 0;
+}
+h1{
+    font-size: 30px !important;
+}
+ul{
+    list-style: none;
+}
+div > img{
+    max-height: 600px;
+    max-width: 100%;
+}
+@media screen and (max-width: 1400px) {
+    .cardss{
+        flex-flow: column;
+        justify-content: center;
+    }
+    .cc{
+        width: 100% !important;
+    }
+}
